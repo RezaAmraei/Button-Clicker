@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar {
+  background-color: grey;
+  width: 80%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar h1 {
+  margin: 10px 25px;
+}
+.navbar button {
+  color: white;
+  background-color: rgb(35, 132, 243);
+  box-shadow: 5px 5px black;
+  margin: 10px 25px;
+  height: 30px;
+  width: 6%;
+}
+textarea {
+  font-size: 20px;
+  width: 50%;
+  border: 2px solid black;
+}
+.body {
+  width: 80%;
+  margin-top: 40px;
+  display: flex;
+}
+.col-L {
+  flex: 1.5;
+
+  /* padding: 20px; */
+}
+.ninja-card-1,
+.ninja-card-2 {
+  border: 2px solid black;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col-L button {
+  background-color: rgb(255, 217, 102);
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+.italics {
+  font-style: italic;
+  font-weight: bold;
+}
+.inner-col-1 {
+  padding: 15px;
+}
+.inner-col-1 h1 {
+  font-weight: 100;
+}
+.inner-col-2 {
+  font-size: 20px;
+  margin-right: 50px;
+}
+.par {
+  height: 40px;
+  width: 250px;
+}
+.col-R {
+  flex: 1;
+
+  padding-left: 20px;
+}
+.dojonary {
+  border: 2px solid black;
+  height: 35%;
+  font-size: 30px;
+  width: 88%;
+  padding: 10px 30px 10px 20px;
+}
+.dojonary p {
+  margin: 10px 20px 0px 20px;
+}
+.dojonary button {
+  background-color: rgb(34, 197, 34);
+  border: 2px solid black;
+  box-shadow: 5px 5px black;
+  font-size: 20px;
+  padding: 5px 40px;
+  margin: 10px 20px;
+  width: 90%;
+}
